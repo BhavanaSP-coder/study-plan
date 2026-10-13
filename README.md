@@ -1,16 +1,51 @@
-# Study Plan Chatbot
+# 🗓️ Study Plan Chatbot
 
-Build a realistic study routine from your goals and available time.
+> Turn your subject and deadline into a simple daily study plan.
 
-## Run it
+A browser-based prototype that creates a short study schedule from a free-text description. Review the suggested sessions and check them off as you go.
 
-Open `index.html` in a modern browser. No installation, API key, or internet connection is required.
+## ✨ Features
 
-## Contents
+- **Quick plan generation** — creates daily study activities from your description.
+- **Deadline-aware demo** — recognizes simple day or week counts in the input.
+- **Progress checkboxes** — mark sessions complete during your current visit.
+- **No setup required** — runs directly in your browser.
 
-- `index.html` — app markup and demo behavior
-- `style.css` — responsive styling
+## 🚀 Run the app
 
-## Notes
+1. Download and extract the project.
+2. Open `index.html` in a modern web browser.
+3. Enter your subject, deadline, and available study time.
+4. Select **Build my plan**.
 
-This is a self-contained front-end demo. It stores no personal data and makes no network requests. Replace sample information and add a backend/API integration if you want production data or AI-generated responses. The travel planner produces illustrative itinerary suggestions, not live travel information.
+Example: `Biology exam in 3 weeks, genetics is my focus.`
+
+## 🧰 Built with
+
+- HTML
+- CSS
+- Vanilla JavaScript
+
+## 📁 Project files
+
+| File | Purpose |
+|---|---|
+| `index.html` | App interface and schedule-generation logic |
+| `style.css` | Responsive visual styling |
+| `README.md` | Project overview and instructions |
+
+## ⚙️ How it works
+
+The app uses simple, deterministic rules to create a sample sequence of study activities. It does not use an AI model, read calendar availability, or save your progress after the page closes.
+
+## 🔭 Ideas for the next version
+
+- Replace free-text parsing with structured subject, date, and availability fields.
+- Add topic priorities and workload estimates.
+- Support rescheduling and editing sessions.
+- Save progress and sync with a calendar.
+- Test date parsing, missed sessions, and conflicting commitments.
+
+## ⚠️ Prototype limitations
+
+The generated plan is a starting point, not a personalized academic recommendation. Review it and adjust the schedule to match your course, workload, and available time.
